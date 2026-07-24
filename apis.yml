@@ -1,7 +1,28 @@
 aid: cit-vericash
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cit-vericash.png
 name: Cit Vericash
-description: Cit Vericash is a company surfaced as a portfolio company of anthemis and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  CIT Vericash is a fintech enablement platform from CIT Global (founded in Toronto,
+  Canada in 1993) that empowers banks, neo banks, microfinance institutions, and
+  fintechs to launch and operate digital financial services. Its high-configuration,
+  no-code/low-code VERICASH platform delivers digital banking, agency banking, digital
+  payments, and mobile wallet capabilities across an omnichannel surface (mobile, USSD,
+  web, and agent networks), with AI-powered customer intelligence and fraud prevention.
+  The platform is live across roughly 25 markets in Africa and the Middle East, serving
+  banked and unbanked communities to advance financial inclusion in emerging markets.
+  CIT Vericash is a portfolio company of Anthemis and was added to the API Evangelist
+  network from the VC portfolio pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/cit-vericash/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,55 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Fintech
+- Digital Banking
+- Payments
+- Mobile Wallet
+- Agency Banking
+- Financial Inclusion
+- Banking as a Service
 apis: []
+common:
+- type: DomainSecurity
+  url: security/cit-vericash-domain-security.yml
+- type: Website
+  url: https://www.citvericash.com
+- type: About
+  url: https://www.citvericash.com/who
+- type: ProductPage
+  name: The Platform
+  url: https://www.citvericash.com/the-platform
+- type: PrivacyPolicy
+  url: https://www.citvericash.com/privacy-policy
+- type: Support
+  name: Get in touch
+  url: https://www.citvericash.com/lets-talk
+- type: HelpCenter
+  name: FAQ
+  url: https://www.citvericash.com/faq
+- type: Blog
+  name: Media
+  url: https://www.citvericash.com/media
+- type: LinkedIn
+  url: https://www.linkedin.com/company/citvericash/
+- type: Twitter
+  url: https://twitter.com/citvericash
+- type: Facebook
+  url: https://www.facebook.com/CITVERICASH/
+- type: Instagram
+  url: https://www.instagram.com/cit.vericash/
+- type: YouTube
+  url: https://www.youtube.com/channel/UC3_-_kIDwicAIT0vII9FelA
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
